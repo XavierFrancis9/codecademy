@@ -6,7 +6,13 @@ int main() {
 
   std::string input = "Turpentine and turtles.";
 
-  std::vector<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+  std::vector<char> vowels;
+
+    vowels.push_back('a');
+    vowels.push_back('e');
+    vowels.push_back('i');
+    vowels.push_back('o');
+    vowels.push_back('u');
 
   std::vector<char> whale_talk;
 
